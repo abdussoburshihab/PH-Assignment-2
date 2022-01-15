@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+   
 }
 
 .container{
@@ -37,12 +38,20 @@ nav{
    padding: 15px 30px;
    background-color: #E02C6D;
    border: none;
-   color: white;font-weight: 700;
+   color: white;font-weight: 600;
+   text-decoration: none;
    
    
 }
+
+.exe{
+    float: right;
+    margin-right: 40px;
+}
+
 .section-title{
    text-align: center;
+  
 }
 .banner{
     display: grid;
@@ -75,15 +84,32 @@ nav{
     grid-gap: 10px;
     padding-left: 60px;
     
+
+    
 }
+
 .product-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+    
+}
+.extra{
+    padding-top: 50px;
 }
 
+.map{
+    width: 50%;
+    height: 450px;
+    padding-left: 400px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
 
-
+span{
+    color: orange;
+}
 
 
 
